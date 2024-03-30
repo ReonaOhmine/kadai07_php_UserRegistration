@@ -8,7 +8,7 @@
 
 
 ## ③DEMO
-https://freddy.sakura.ne.jp/kadai07_1
+https://freddy.sakura.ne.jp/kadai07_1/index.php
 
 ## ④工夫した点・こだわった点
 - データの受け渡しにスプレッドシートを含めたこと
