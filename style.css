@@ -1,0 +1,222 @@
+html,
+body {
+    width: 100%;
+}
+
+header {
+    padding: 0 24px;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #EEEEEE;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.header_contents {
+    display: flex;
+    align-items: center;
+}
+
+.headerIcon {
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    /* aタグを右端に寄せる */
+}
+
+ul li {
+    margin-left: 20px;
+    /* aタグの間隔を設定 */
+}
+
+.toB {
+    width: 300px;
+    height: 52px;
+    display: inline-block;
+    background-color: #9B9B9B;
+    /* グレーの背景色 */
+    color: #FFFFFF;
+    /* 白色のテキスト色 */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    /* ホバー時のアニメーションを追加 */
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.entry {
+    width: 300px;
+    height: 52px;
+    display: inline-block;
+    background-color: #2C92BE;
+    /* グレーの背景色 */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    /* ホバー時のアニメーションを追加 */
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.btnText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.btnText p {
+    text-align: center;
+    color: #FFFFFF;
+    /* 白色のテキスト色 */
+    padding: 10px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.bigText {
+    font-size: 32px;
+}
+
+
+
+
+
+.entry2{
+    padding: 121px 0 60px 0;
+}
+
+
+footer {
+    background-color: #FFBB00;
+    height: auto;
+}
+
+.footerWrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContener {
+    margin: 60px 0;
+    padding: 0 24px;
+    width: 923px;
+    height: 291px;
+}
+
+.footerText {
+    width: 606px;
+    height: 100%;
+}
+
+.kaisya {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.kaisyaDetail {
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.kaisyaDetails {
+    display: flex;
+    margin-top: 14px;
+}
+
+.c {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+}
+
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.entry_title{
+    margin-bottom: 60px;
+    text-align: center;
+    width: 392px;
+    margin: 0 auto;
+}
+
+.entry_title h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.membership {
+    margin-bottom: 20px;
+    background-color: #FFBB00;
+    max-width: 100%;
+}
+
+.membership p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.entry_title p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.form {
+    margin-bottom: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.label_contents {
+    margin-bottom: 20px;
+}
+
+
+.label_title {
+    display: flex;
+}
+
+.skillcheck {
+    margin-bottom: 20px;
+}
+
+.doui {
+    display: flex;
+}
+
+#red {
+    color: red;
+}
+
+.finish {
+margin: 200px 200px;
+padding: 45px 45px;
+width: 788px;
+height: 336px;
+text-align: center;
+}
+
+.finish_1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFBB00;
+}
+
