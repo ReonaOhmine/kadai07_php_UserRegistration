@@ -11,7 +11,7 @@
 <header>
     <div class="header_contents">
         <div class="headerIcon">
-            <img src="image/freddylogo.png" alt="freddy" width="250" />
+            <a href="index.php"><img src="image/freddylogo.png" alt="freddy" width="250" /></a>
         </div>
     </div>
 </header>
