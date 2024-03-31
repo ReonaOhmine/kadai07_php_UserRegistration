@@ -20,7 +20,7 @@ $_SESSION["name"] = $name;
 // スプレッドシートに書き込む
 if (isset($_POST['name'])) {
 
-    define('POST_URL', 'https://script.google.com/macros/s/AKfycbxtpkj2vWfaRnpw1x_vMFxCcqPWyrt9ESeIdZnzOWGdLktplAuMs-JIHao_cfoQpSSR/exec');
+    define('POST_URL', 'https://script.google.com/macros/s/AKfycbwJz2LzScLnXtMipzyve8XkP1HFr7-aZrqA8mQfT9QnFao-jEHr0EDmWtAcrzHBl1mGTQ/exec');
 
     $post_data = [
         'name' => $_POST['name'],
